@@ -36,7 +36,7 @@ const Login = () => {
   return (
     <>
       <div className="p-4 box">
-        <h3 className="mb-3">Firebase Authentication</h3>
+        <h3 className="mb-3 text-center">Firebase Authentication</h3>
         <Form onSubmit={handleSubmit}>
           <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Control
